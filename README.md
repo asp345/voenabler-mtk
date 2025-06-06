@@ -1,11 +1,8 @@
 ### Please note that this is a fork of [Toucan-sam](https://github.com/Toucan-Sam/VoEnabler).
 
-I'm updating it whenever possible for my OP5. I have no other devices to validate the module. 
-
 ## VoEnabler
 
-[![HitCount](http://hits.dwyl.com/{edgd1er}/{voenabler}.svg)](http://hits.dwyl.com/{edgd1er}/{voenabler})
-![CI](https://github.com/edgd1er/voenabler/workflows/CI/badge.svg)
+![CI](https://github.com/asp345/voenabler-mtk/workflows/CI/badge.svg)
 ![CI](https://img.shields.io/github/release/edgd1er/voenabler.svg)
 
 This module enables the VoLTE & VoWiFi & RCS options by editing `build.prop`.
@@ -13,12 +10,10 @@ This module enables the VoLTE & VoWiFi & RCS options by editing `build.prop`.
 **Important:** VoLTE/VoWiFi will not work if your carrier doesn't support it, even if you install this module.
 
 ## Devices
-<br>OnePlus 5
-<br>Redmi Note 7 Pro
+<br>Realme 7 5G
 <br>
 
-XDA Thread: [here](https://forum.xda-developers.com/apps/magisk/module-v4-volte-enabler-t3649613)
-<br>Guide to **_maybe_** make this work: [here](https://forum.xda-developers.com/oneplus-5t/how-to/guide-volte-vowifi-german-carriers-t3817542)
+Original XDA Thread: [here](https://forum.xda-developers.com/apps/magisk/module-v4-volte-enabler-t3649613)
 
 ## What does this module change?
 <br>persist.data.iwlan.enable=true
@@ -44,8 +39,10 @@ XDA Thread: [here](https://forum.xda-developers.com/apps/magisk/module-v4-volte-
 <br>persist.radio.VT_ENABLE=1
 <br>persist.sys.cust.lte_config=true
 <br>persist.rcs.supported=1
+<br>persist.mtk.volte.enable=1
 
 ## Changelog
+<br>2025-06-06 (v1.9): Add "persist.mtk.volte.enable=1" to support MTK devices
 <br>2020-04-04 (v1.8): Update Module & Test devices
 <br>2020-04-04 (v1.7): Update VoLTE & WoWIFI & RCS 
 <br>2020-02-02 (v1.6): Update template for Magisk v20.x

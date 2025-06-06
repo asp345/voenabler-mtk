@@ -1,6 +1,6 @@
 id=voenabler
 name=VoEnabler
-version=v1.8
-versionCode=7
+version=v1.9
+versionCode=8
 author=Toucan
 description=Adds settings to build.prop to enable: VoLTE & VoWifi & RCS

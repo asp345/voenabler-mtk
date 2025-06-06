@@ -21,3 +21,6 @@ persist.radio.VT_ENABLE=1
 # Other Options
 persist.sys.cust.lte_config=true
 persist.rcs.supported=1
+
+# Mtk Options
+persist.mtk.volte.enable=1
