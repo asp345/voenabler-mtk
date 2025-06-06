@@ -2,8 +2,7 @@
 
 ## VoEnabler
 
-![CI](https://github.com/asp345/voenabler-mtk/workflows/CI/badge.svg)
-![CI](https://img.shields.io/github/release/edgd1er/voenabler.svg)
+![Releases]([https://github.com/asp345/voenabler-mtk/releases])
 
 This module enables the VoLTE & VoWiFi & RCS options by editing `build.prop`.
 
