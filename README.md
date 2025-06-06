@@ -2,7 +2,7 @@
 
 ## VoEnabler
 
-![Releases]([https://github.com/asp345/voenabler-mtk/releases])
+![Releases](https://github.com/asp345/voenabler-mtk/releases)
 
 This module enables the VoLTE & VoWiFi & RCS options by editing `build.prop`.
 
